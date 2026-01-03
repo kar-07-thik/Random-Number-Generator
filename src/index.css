@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 50%;
+  height: 250px;
+  margin: 200px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.btn{
+  padding: 5px;
+  width: 100px;
+  border-radius: 20px;
+  border: solid 1px transparent;
+  margin: 0% auto;
+
+}
+.btn:hover{
+  border: white solid 1px;
+  background-color: transparent;
+  transition: 1s;
+  color: white;
+}
